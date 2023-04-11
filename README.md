@@ -21,7 +21,7 @@ The default model is bigscience's T0_3B:
 
 https://huggingface.co/bigscience/T0_3B
 
-It requires 13 GB of hard disk space and about twice that amount of RAM memory.
+It requires 15 GB of hard disk space and about twice that amount of RAM memory.
 
 You can switch to another model by editing the "name" variable in the app.py script.
 
