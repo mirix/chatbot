@@ -6,7 +6,7 @@ INSTRUCTIONS
 
 1. Install a recent Python version.
 
-2. Install flask and transformers via pip.
+2. Install flask, pytorch and transformers via pip.
 
 2. Clone this repo.
 
@@ -32,4 +32,6 @@ This chatbot was tested on Majaro Linux and Ubuntu 22.04 with 32 GB of RAM and I
 Google's flan-t5-xl also works on the same hardware, but I have found T0_3B to be a bit more accurate. 
 
 With less RAM you may need to switch to a smaller model such as flan-t5-small, flan-t5-base or flan-t5-large, whereas the more accurate flan-t5-xxl will require humongous amounts of RAM and one or more CUDA accelerators.
+
+To save disk space, you can remove the all the model binaries except the pytorch ones.
 
