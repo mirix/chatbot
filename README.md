@@ -8,7 +8,7 @@ INSTRUCTIONS
 
 2. Install flask, pytorch and transformers via pip.
 
-2. Clone this repo.
+2. Clone this repo: https://github.com/mirix/chatbot
 
 3. Run app.py with Python from the terminal. The model may take up to a minute to load initially.
 
