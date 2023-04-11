@@ -33,5 +33,5 @@ Google's flan-t5-xl also works on the same hardware, but I have found T0_3B to b
 
 With less RAM you may need to switch to a smaller model such as flan-t5-small, flan-t5-base or flan-t5-large, whereas the more accurate flan-t5-xxl will require humongous amounts of RAM and one or more CUDA accelerators.
 
-To save disk space, you can remove the all the model binaries except the pytorch ones.
+To save disk space, if applicable, you can remove the all the model binaries (such as flax or tensorflow) except the pytorch ones.
 
